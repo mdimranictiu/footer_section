@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.upper{
+    width: 100%;
+    height: 200px;
+    background: #721f16;
+  
+   
+}
+.upper div{
+    width: 35%;
+    height: 120px;
+    float: left;
+    margin:3% auto;
+    margin-left: 10%;
+    
+}
+.text{
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 20px;
+    color:white;
+    overflow: hidden;
+}
+.sub #email{
+    width: 45%;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    margin-top: 20px;
+}
+#btn{
+    width: 30%;
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    background:#457fa5;
+    color: white;
+ 
+    font-family: cursive;
+    margin-top: 20px;
+}
+#btn:hover{
+    background:#27ae60; 
+    cursor: pointer;
+}
+.lower{
+    width: 100%;
+    height: 400px;
+    background: #2c3e50;
+}
+.lower div{
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin:1% auto;
+    margin-left: 4%;
+    
+    
+} .lower div ul{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.lower div ul li{
+    padding: 10px;
+}
+.lower div ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+  
+}
+.last{
+    width: 100%;
+    height: 50px;
+    background: #7f8c8d;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+@media (max-width:1310px) {
+    .text{
+        font-size: 15px;
+        justify-content: center;
+        text-align: justify;
+    }
+}
+@media(max-width:1040px){
+    #email{
+        width: 30%;
+    }
+    #btn{
+        width: 25%;
+    }
+}
+@media(max-width:991px){
+    .upper .text{
+        width: 80%;
+        height: 120px;
+        float: left;
+        margin:2% auto;
+        margin-left: 10%;
+        
+    }
+    .upper .sub{
+        width: 80%;
+        height: 120px;
+        float: left;
+        margin:0% auto;
+        margin-left: 10%;
+        
+    }
+    #email{
+        width: 55%;
+
+    }
+    #btn{
+        width:35% ;
+    }
+   .upper{
+       height: 320px;
+   }
+   .text{
+    font-size: 18px;
+    justify-content: center;
+    text-align: justify;
+}
+}
+@media(max-width:786px){
+    .lower div{
+        width: 40%;
+        height: 300px;
+        float: left;
+        margin:1% auto;
+        margin-left: 2%;
+}
+.lower{
+    height: 650px;
+}
+}html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
